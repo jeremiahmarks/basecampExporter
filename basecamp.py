@@ -8,7 +8,7 @@ import time
 pw = {}
 pw['username']='username'
 pw['password']='password'
-pw['basecampId']='1934040'
+pw['basecampId']='somenumber'
 
 auth=HTTPBasicAuth(pw['username'], pw['password'])
 headers = {'User-Agent': 'BasecampExporter Jeremiah@JLMarks.org'}
